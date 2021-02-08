@@ -10,12 +10,15 @@ class Bomber : public Zombie
         Bomber();
         ~Bomber();
 
+        /*int getA();
+        void setA(int a);*/
+
 
 
     protected:
 
     private:
-        int attack;
+        int a;
 
 };
 

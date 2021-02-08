@@ -7,6 +7,10 @@
 
 #include <stdlib.h>
 
+
+
+
+
 using namespace std;
 
 class Zombie
@@ -14,6 +18,7 @@ class Zombie
     public:
         Zombie();
         Zombie (int s, int a, string n);
+        //Zombie(int ar);
         ~Zombie();
 
         //GETTER/SETTER
@@ -26,12 +31,19 @@ class Zombie
         string getNom();
         void setNom(string n);
 
+        int getArmor();
+        void setArmor(int ar);
+
 
         void attackZombie(Zombie* cible);
 
 
 
+
+
         void showInfos();
+
+
 
 
 
@@ -41,6 +53,7 @@ class Zombie
         int pv = 50;
         int attack = 10;
         string nom="Bob";
+        int armor = 0;
 };
 
 #endif // ZOMBIE_H

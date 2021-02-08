@@ -1,6 +1,10 @@
 #include "Zombie.h"
 #include "Bomber.h"
 #include"Tank.h"
+#include "Rapace.h"
+#include "Mage.h"
+#include "Fusion.h"
+
 
 using namespace std;
 
@@ -30,6 +34,28 @@ int main()
 
     Bomber b1;
     b1.showInfos();
+
+    Tank t1;
+    t1.showInfos();
+
+    Rapace r1;
+    r1.showInfos();
+
+    t1.attackTank(&z1);
+    t1.showInfos();
+
+    t1.chargeTank(&z1);
+    z1.showInfos();
+
+    Mage m1;
+    m1.spellMage(&t1);
+    t1.showInfos();
+
+
+    Fusion f1;
+    f1+=m1;
+    f1.showInfos();
+
 
     return 0;
 }
