@@ -1,6 +1,6 @@
 #include "Fusion.h"
 
-Fusion::Fusion(): Zombie (100,10,"Fusion")
+Fusion::Fusion(): Zombie (50,5,"Fusion")
 {
     //ctor
 }
@@ -31,9 +31,9 @@ void Fusion::operator+=(Zombie & z){
         setPv(getPv() + z.getPv() + z.getArmor());
         setAttack(getAttack() + z.getAttack());
         z.~Zombie();
-    }else if (getPv(500) && getAttack(200)) {
+    }/*else if (getPv(500) && getAttack(200)) {
         cout<<"Fin du monde, fin de la partie"<<endl;
-    }else{
+    }*/else{
         //~Fusion();
         cout<<"Le zombie ultime est mort dans d'atroces souffrances"<<endl;
     }
