@@ -51,10 +51,10 @@ int main()
     m1.spellMage(&t1);
     t1.showInfos();
 
-
     Fusion f1;
     f1+=m1;
     f1.showInfos();
+
 
 
     return 0;
