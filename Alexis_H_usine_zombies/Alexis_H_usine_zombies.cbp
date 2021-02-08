@@ -35,10 +35,16 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Bomber.h" />
+		<Unit filename="include/Fusion.h" />
+		<Unit filename="include/Mage.h" />
+		<Unit filename="include/Rapace.h" />
 		<Unit filename="include/Tank.h" />
 		<Unit filename="include/Zombie.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Bomber.cpp" />
+		<Unit filename="src/Fusion.cpp" />
+		<Unit filename="src/Mage.cpp" />
+		<Unit filename="src/Rapace.cpp" />
 		<Unit filename="src/Tank.cpp" />
 		<Unit filename="src/Zombie.cpp" />
 		<Extensions>
