@@ -4,14 +4,17 @@
 #include <string>
 #include <iostream>
 #include <random>
-#include <ctime>
+
 #include <stdlib.h>
+
+using namespace std;
 
 class Zombie
 {
     public:
         Zombie();
-        virtual ~Zombie();
+        Zombie (int s, int a, string n);
+        ~Zombie();
 
         //GETTER/SETTER
         int getPv();
@@ -20,11 +23,24 @@ class Zombie
         int getAttack();
         void setAttack(int a);
 
+        string getNom();
+        void setNom(string n);
+
+
+        void attackZombie(Zombie* cible);
+
+
+
+        void showInfos();
+
+
+
     protected:
 
     private:
-        pv = 50;
-        attack = 10;
+        int pv = 50;
+        int attack = 10;
+        string nom="Bob";
 };
 
 #endif // ZOMBIE_H

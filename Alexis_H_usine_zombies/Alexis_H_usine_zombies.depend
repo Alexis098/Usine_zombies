@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1612803128 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\main.cpp
+	"Zombie.h"
+	"Bomber.h"
+
+1612802730 c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\include\zombie.h
+	<string>
+	<iostream>
+	<random>
+	<stdlib.h>
+
+1612802589 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\src\zombie.cpp
+	"Zombie.h"
+
+1612802841 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\src\bomber.cpp
+	"Bomber.h"
+
+1612803449 c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\include\bomber.h
+	"Zombie.h"
+
