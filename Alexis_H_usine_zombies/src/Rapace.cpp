@@ -11,3 +11,8 @@ Rapace::~Rapace()
 {
     //dtor
 }
+
+void Rapace::rapidAttack(Zombie* cible){
+    cible->setPv(cible->getPv()-getAttack());
+    setPv(getPv()+getAttack());
+}

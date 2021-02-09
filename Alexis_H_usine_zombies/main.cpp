@@ -40,6 +40,8 @@ int main()
 
     Rapace r1;
     r1.showInfos();
+    r1.rapidAttack(&z1);
+    r1.showInfos();
 
     t1.attackTank(&z1);
     t1.showInfos();

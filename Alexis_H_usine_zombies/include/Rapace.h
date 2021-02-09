@@ -7,7 +7,9 @@ class Rapace : public Zombie
 {
     public:
         Rapace();
-        virtual ~Rapace();
+        ~Rapace();
+
+        void rapidAttack(Zombie* cible);
 
     protected:
 
