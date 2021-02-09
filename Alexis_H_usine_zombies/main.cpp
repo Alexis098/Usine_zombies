@@ -35,7 +35,12 @@ int main()
     Bomber b1;
     b1.showInfos();
 
+
+
     Tank t1;
+    t1.showInfos();
+
+    b1.Explosion(&t1);
     t1.showInfos();
 
     Rapace r1;

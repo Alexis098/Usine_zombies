@@ -2,6 +2,7 @@
 #define BOMBER_H
 
 #include "Zombie.h"
+//#include "Tank.h"
 
 
 class Bomber : public Zombie
@@ -12,6 +13,8 @@ class Bomber : public Zombie
 
         /*int getA();
         void setA(int a);*/
+
+        void Explosion(Zombie* cible);
 
 
 

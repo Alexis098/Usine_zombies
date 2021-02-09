@@ -1,5 +1,6 @@
 #include "Bomber.h"
 
+
 Bomber::Bomber() : Zombie(100,20,"Bomber")
 {
     //attack = a*2;
@@ -18,4 +19,12 @@ Bomber::~Bomber()
 }
 
 
+void Bomber::Explosion(Zombie* cible){
+    if (getArmor()>0){
+        cible->setArmor(cible->getArmor()-(getAttack()*3));
+    }else{
+        cible->setPv(cible->getPv()-(getAttack()*3));
+    }
 
+    cout<<"le zombie bomber s'est fait exploser"<<endl;
+}
