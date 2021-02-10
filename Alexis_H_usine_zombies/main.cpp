@@ -47,6 +47,7 @@ int main()
     r1.showInfos();
     r1.rapidAttack(&z1);
     r1.showInfos();
+    z1.showInfos();
 
     t1.attackZombie(&z1);
     t1.showInfos();
