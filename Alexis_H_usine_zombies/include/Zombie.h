@@ -33,8 +33,8 @@ class Zombie
         string getNom();
         void setNom(string n);
 
-        int getArmor();
-        void setArmor(int ar);
+        /*int getArmor();
+        void setArmor(int ar);*/
 
 
         void attackZombie(Zombie* cible);

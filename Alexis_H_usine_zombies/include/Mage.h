@@ -11,6 +11,8 @@ class Mage : public Zombie
         ~Mage();
 
         void spellMage(Zombie* cible);
+        int getCompteur();
+        void setCompteur(int c);
 
 
 
@@ -18,6 +20,7 @@ class Mage : public Zombie
     protected:
 
     private:
+        int compteur = 0;
 
 };
 

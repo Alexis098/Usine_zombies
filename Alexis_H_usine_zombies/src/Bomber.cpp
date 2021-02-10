@@ -3,14 +3,13 @@
 
 Bomber::Bomber() : Zombie(100,20,"Bomber")
 {
-    //attack = a*2;
+    /*setAttack(getAttack()*2);*/
     cout<<"Je suis un zombie bomber"<<endl;
 }
 
 /*Bomber::Bomber(int s,int a){
     pv = p;
     attack = a;
-
 }*/
 
 Bomber::~Bomber()
@@ -20,11 +19,11 @@ Bomber::~Bomber()
 
 
 void Bomber::Explosion(Zombie* cible){
-    if (getArmor()>0){
+    /*if (getArmor()>0){
         cible->setArmor(cible->getArmor()-(getAttack()*3));
-    }else{
+    }else{*/
         cible->setPv(cible->getPv()-(getAttack()*3));
-    }
+    //}
 
     cout<<"le zombie bomber s'est fait exploser"<<endl;
 }

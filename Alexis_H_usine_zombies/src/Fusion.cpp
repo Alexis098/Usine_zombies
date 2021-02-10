@@ -27,8 +27,8 @@ void Fusion::setAttack(int a){
 }*/
 
 void Fusion::operator+=(Zombie & z){
-    if(getPv()>=z.getPv()+z.getArmor() && getAttack()>=z.getAttack()){
-        setPv(getPv() + z.getPv() + z.getArmor());
+    if(getPv()>=z.getPv()/*+z.getArmor()*/ && getAttack()>=z.getAttack()){
+        setPv(getPv() + z.getPv() /*+ z.getArmor()*/);
         setAttack(getAttack() + z.getAttack());
         z.~Zombie();
     }/*else if (getPv(500) && getAttack(200)) {

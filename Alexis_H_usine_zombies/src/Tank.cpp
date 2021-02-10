@@ -44,3 +44,8 @@ void Tank::chargeTank(Zombie* cible){
         cible->setPv(cible->getPv()-getAttack());
     }
 }
+
+
+
+
+

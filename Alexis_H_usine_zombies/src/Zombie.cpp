@@ -5,7 +5,7 @@ Zombie::Zombie()
     pv = 100;
 	attack = 10;
 	nom = "Default";
-	armor= 0;
+	//armor= 0;
 }
 
 Zombie::Zombie(int s, int a, string n){
@@ -32,7 +32,7 @@ int Zombie::getPv(){
 }
 
 void Zombie::setPv(int s){
-    if (s>100){
+    if (s>100 || s<0){
         pv = 0;
         cerr<<"le zombie "<<getNom()<<" s'est decompose car PV trop eleves"<<endl;
     }else{
@@ -46,7 +46,7 @@ int Zombie::getAttack(){
 }
 
 void Zombie::setAttack(int a){
-    if (a>10){
+    if (a>10 || a<0){
         attack = 0;
         cerr<<"le zombie "<<getNom()<<" s'est decompose car attaque trop elevee"<<endl;
     }else{
@@ -75,13 +75,13 @@ void Zombie::attackZombie(Zombie* cible){
 }*/
 
 
-int Zombie::getArmor(){
+/*int Zombie::getArmor(){
     return armor;
 }
 
 void Zombie::setArmor(int ar){
     armor = ar;
-}
+}*/
 
 
 

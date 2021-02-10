@@ -48,7 +48,7 @@ int main()
     r1.rapidAttack(&z1);
     r1.showInfos();
 
-    t1.attackTank(&z1);
+    t1.attackZombie(&z1);
     t1.showInfos();
 
     t1.chargeTank(&z1);
@@ -62,7 +62,12 @@ int main()
     f1+=m1;
     f1.showInfos();
 
+    z1.attackZombie(&t1);
+    t1.showInfos();
 
+
+    m1.spellMage(&t1);
+    t1.showInfos();
 
     return 0;
 }

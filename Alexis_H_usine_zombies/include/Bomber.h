@@ -21,7 +21,7 @@ class Bomber : public Zombie
     protected:
 
     private:
-        int a;
+        //int a;
 
 };
 

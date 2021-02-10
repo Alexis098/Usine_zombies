@@ -1,21 +1,25 @@
 # depslib dependency file v1.0
-1612803128 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\main.cpp
+1612956184 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\main.cpp
 	"Zombie.h"
 	"Bomber.h"
+	"Tank.h"
+	"Rapace.h"
+	"Mage.h"
+	"Fusion.h"
 
-1612802730 c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\include\zombie.h
+1612954681 c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\include\zombie.h
 	<string>
 	<iostream>
 	<random>
 	<stdlib.h>
 
-1612802589 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\src\zombie.cpp
+1612954681 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\src\zombie.cpp
 	"Zombie.h"
 
-1612802841 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\src\bomber.cpp
+1612953922 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\src\bomber.cpp
 	"Bomber.h"
 
-1612803449 c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\include\bomber.h
+1612953421 c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\include\bomber.h
 	"Zombie.h"
 
 1612905056 source:c:\users\alhng\documents\github\usine_zombies\alexis_h_usine_zombies\main.cpp
@@ -66,4 +70,30 @@
 1612904715 c:\users\alhng\documents\github\usine_zombies\alexis_h_usine_zombies\include\fusion.h
 	"Zombie.h"
 	"Bomber.h"
+
+1612956483 c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\include\tank.h
+	"Zombie.h"
+
+1612951253 c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\include\rapace.h
+	"Zombie.h"
+
+1612955274 c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\include\mage.h
+	"Zombie.h"
+	"Tank.h"
+
+1612951253 c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\include\fusion.h
+	"Zombie.h"
+	"Bomber.h"
+
+1612954715 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\src\fusion.cpp
+	"Fusion.h"
+
+1612955521 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\src\mage.cpp
+	"Mage.h"
+
+1612951253 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\src\rapace.cpp
+	"Rapace.h"
+
+1612956171 source:c:\users\render\documents\github\usine_zombies\alexis_h_usine_zombies\src\tank.cpp
+	"Tank.h"
 
